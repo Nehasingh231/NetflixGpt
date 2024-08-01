@@ -60,8 +60,7 @@ const Header = () => {
             alt="usericon"
           />
           <button onClick={toggleSignOut} className="ml-2">
-          <span><i class="fa-solid fa-angle-down"></i></span>  
-           {/* Downward arrow */}
+          
           </button>
           {showSignOut && (
             <div className="absolute top-24 right-0 bg-white border rounded shadow-md">

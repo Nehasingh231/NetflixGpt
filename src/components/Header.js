@@ -60,6 +60,7 @@ const Header = () => {
             alt="usericon"
           />
           <button onClick={toggleSignOut} className="ml-2">
+          <i className="fa-solid fa-angle-down"></i>
           
           </button>
           {showSignOut && (
@@ -67,6 +68,7 @@ const Header = () => {
               <button onClick={handleSignOut} className="px-4 py-2 text-black">
                 Sign Out
               </button>
+              
             </div>
           )}
         </div>
